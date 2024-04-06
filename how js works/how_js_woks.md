@@ -33,5 +33,16 @@ The optimized machine code is then used for subsequent executions of the same co
 The JIT compiler continues to monitor the execution and can further optimize the machine code based on runtime information.
 JIT compilation allows JavaScript engines to start executing code quickly through interpretation and then optimize performance by compiling hot code paths to machine code. This approach provides a balance between fast startup times and optimized execution speed.
 
+<<<<<<< Updated upstream
 Execution Context: When a JavaScript script runs, it operates within an execution context that holds all the necessary information for the code to be executed, including variables, functions, and this keyword.
+=======
+Execution Context:
+article: https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/
+
+steps: 
+1. create execution context
+2. First Memory gets assigned to variables and functions(references)
+3. Then in Execution phase, code gets executed line by line. If the function is encountered then new execution context gets created.
+4. After the execution, the execution context gets deleted by garbage collection technique of javascript Engine 
+>>>>>>> Stashed changes
 
