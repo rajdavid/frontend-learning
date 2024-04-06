@@ -33,3 +33,5 @@ The optimized machine code is then used for subsequent executions of the same co
 The JIT compiler continues to monitor the execution and can further optimize the machine code based on runtime information.
 JIT compilation allows JavaScript engines to start executing code quickly through interpretation and then optimize performance by compiling hot code paths to machine code. This approach provides a balance between fast startup times and optimized execution speed.
 
+Execution Context: When a JavaScript script runs, it operates within an execution context that holds all the necessary information for the code to be executed, including variables, functions, and this keyword.
+
