@@ -1,1 +1,0 @@
-Event Loop: JavaScript has a single-threaded, event-driven, non-blocking I/O model. The event loop allows JavaScript to perform long network requests, I/O operations, or timers without freezing the user interface, by using callbacks and promises to deal with asynchronous operations.
